@@ -221,3 +221,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* about page specific */
+
+.container.about-page p {
+    padding-bottom: 30px;
+}
+
+.dashed-line {
+    border-bottom: 1.25px dashed black;
+
+}
+
+.container.about-page img {
+    margin-bottom: 20px;
+}
+
+
+.container.about {
+    padding: 0px 20px;
+}
+
+.toprow {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.container.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+    padding-bottom: 30px;
+    border-bottom: 1.25px dashed black;
+    line-height: 20px;
+}
+
+button {
+    /* margin: 20px 0px; */
+    border: 2px solid black;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+}
