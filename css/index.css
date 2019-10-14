@@ -302,25 +302,17 @@ button {
 	margin: 20px 60px;
 }
 
-
-
 #contact-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .right {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 10px;
-}
-
-.label {
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .label {
@@ -339,6 +331,14 @@ textarea.right-comment{
     
 }
 
+.radiobutton {
+    text-align: center;
+}
+
+label {
+    padding-right: 20px;
+}
+
 .button {
     text-align: center;
 }
@@ -347,3 +347,84 @@ textarea.right-comment{
     display: flex;
     flex-direction: row;
 }
+
+
+/* Products page specific */
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 48%;
+    padding: 5%;
+    margin-bottom: 30px;
+    line-height: 20px;
+    border-bottom: 1.25px dashed black; 
+
+}
+
+
+
+
+
+/* media queries for responsive design */
+@media(max-width: 500px) {
+   
+    heading.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10% 40%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 20px; */
+        line-height: 30px;
+        align-content: center;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroImage {
+        display: flex;
+        width: 100%;
+    }
+
+    .middle-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .bottom-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categories {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+  }
