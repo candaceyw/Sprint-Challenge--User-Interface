@@ -34,28 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML is markup that clearly describes what it’s doing to the browser and the developer. <div> <span> are too generic to understand what’s happening, but by changing it to <form>, <article>, <address> you can clearly see what that code is meant to do. It’s very important to clearly label your code, especially for readability for other developers.
+        Semantic HTML is markup that clearly describes what it’s doing to the browser and the developer. <div> <span> are too generic to understand what’s happening, but by changing it to <form>, <article>, <address> you can clearly see what that code is meant to do. It’s very important to clearly label your code, especially for readability for other developers.
 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    Unlike Inline, A block element always starts on a new line, and fills up the horizontal space left and right on the web page. You can add padding/margin to all four sides.
+        Unlike Inline, A block element always starts on a new line, and fills up the horizontal space left and right on the web page. You can add padding/margin to all four sides.
 
 
 3. What are the 4 areas of the box model?
     
-    content edge, padding edge, border edge, 
-    and margin edge.
+        content edge, padding edge, border edge, 
+        and margin edge.
 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
     
-    cross axis
+        cross axis
 
 
 5. Explain why git is valuable to a team of developers.
 
-    Git allows developers to save versions of code so they may revert back to working code when things start to go wrong. It’s also helpful to compare code changes over specific time. Developers can also see who modified the code when they introduced a problem.
+        Git allows developers to save versions of code so they may revert back to working code when things start to go wrong. It’s also helpful to compare code changes over specific time. Developers can also see who modified the code when they introduced a problem.
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
@@ -71,8 +71,8 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
 
@@ -116,7 +116,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [x] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
 * [x] Build a contact page and create a form with several inputs of your choosing
 * [x] Add responsive breakpoints to your code by using media queries

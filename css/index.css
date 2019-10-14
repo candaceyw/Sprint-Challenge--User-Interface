@@ -262,7 +262,6 @@ footer nav a {
 }
 
 .bottomrow {
-    
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -383,7 +382,6 @@ label {
     nav {
         display: flex;
         flex-direction: column;
-        /* margin-bottom: 20px; */
         line-height: 30px;
         align-content: center;
     }
@@ -425,6 +423,13 @@ label {
         display: flex;
         flex-direction: column;
         align-content: center;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 60%;
     }
 
   }
