@@ -261,10 +261,89 @@ footer nav a {
     line-height: 20px;
 }
 
+.bottomrow {
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    padding: 0px 20px;
+    line-height: 20px;
+}
+
+.container.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+    padding-bottom: 30px;
+    border-bottom: 1.25px dashed black; 
+}
+
 button {
-    /* margin: 20px 0px; */
     border: 2px solid black;
     padding: 10px;
     width: 120px;
     border-radius: 10px;
+}
+
+.work {
+    padding: 0px 20px;
+    line-height: 20px;
+}
+
+
+/* Contact Page Specific */
+
+.form {
+    display: flex;
+    flex-direction: column;
+	margin: 20px 60px;
+}
+
+
+
+#contact-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.label {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+input.input {
+    width: 200px;
+}
+
+textarea.right-comment{
+	margin: 0px;
+	width: 270px;
+    height: 115px;
+    
+}
+
+.button {
+    text-align: center;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: row;
 }
