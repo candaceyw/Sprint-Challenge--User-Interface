@@ -71,6 +71,42 @@ p {
     margin: 0 auto;
 }
 
+/* navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+} /* end navigation */
+
+
+.heroImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +148,47 @@ p {
     justify-content: center;
 }
 
+ /*  Boxes color  */
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+  }
+
+.middle-content .boxes .box+div {
+      background-color: gold;
+  }
+
+.middle-content .boxes .box+div+div {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box+div+div+div {
+    background-color: coral;
+}
+
+.middle-content .boxes .box+div+div+div+div {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box+div+div+div+div+div {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box+div+div+div+div+div+div {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box+div+div+div+div+div+div+div {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box+div+div+div+div+div+div+div+div {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box+div+div+div+div+div+div+div+div+div {
+    background-color: dodgerblue;
+}
+ 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +221,215 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* about page specific */
+
+.container.about-page p {
+    padding-bottom: 30px;
+}
+
+.dashed-line {
+    border-bottom: 1.25px dashed black;
+
+}
+
+.container.about-page img {
+    margin-bottom: 20px;
+}
+
+
+.container.about {
+    padding: 0px 20px;
+}
+
+.toprow {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.container.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+    padding-bottom: 30px;
+    border-bottom: 1.25px dashed black;
+    line-height: 20px;
+}
+
+.bottomrow {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    padding: 0px 20px;
+    line-height: 20px;
+}
+
+.container.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+    padding-bottom: 30px;
+    border-bottom: 1.25px dashed black; 
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.work {
+    padding: 0px 20px;
+    line-height: 20px;
+}
+
+
+/* Contact Page Specific */
+
+.form {
+    display: flex;
+    flex-direction: column;
+	margin: 20px 60px;
+}
+
+#contact-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+input.input {
+    width: 200px;
+}
+
+textarea.right-comment{
+	margin: 0px;
+	width: 270px;
+    height: 115px;
+    
+}
+
+.radiobutton {
+    text-align: center;
+}
+
+label {
+    padding-right: 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Products page specific */
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 48%;
+    padding: 5%;
+    margin-bottom: 30px;
+    line-height: 20px;
+    border-bottom: 1.25px dashed black; 
+
+}
+
+
+
+
+
+/* media queries for responsive design */
+@media(max-width: 500px) {
+   
+    heading.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10% 40%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        align-content: center;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroImage {
+        display: flex;
+        width: 100%;
+    }
+
+    .middle-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .bottom-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categories {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 60%;
+    }
+
+  }
